@@ -17,6 +17,130 @@ ul {
   margin-bottom: 0;
 }
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "League Spartan", sans-serif;
+}
+
+.main{
+  margin: 1.5rem;
+}
+.main-title{
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #512051 ;
+}
+
+.text{
+  font-weight:500 ;
+  font-size: 1.1875rem;
+  line-height: 1.5625rem;
+  letter-spacing: -0.0394rem;
+  color: #927B91 ;
+
+}
+
+@media screen and (width>=445px) {
+  .title-valoration{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+  .main-top{
+    width: 445px;
+  }
+  .valoration-card{
+    width: 540px;
+  }
+
+}
+
+.valoration{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  background-color: #F9E8F8;
+  margin-bottom: 1rem;
+  padding: 16px;
+  border-radius: 0.5rem;
+}
+
+.stars{
+  display: flex;
+  margin-bottom: 16px;
+  gap: 0.5625rem;
+}
+
+@media screen and (width>=445px) {
+.valoration{
+  flex-direction: row;
+  position: relative;
+  margin-left: auto;
+  gap: 2rem;
+  width: 445px;
+}
+.valoration-first{
+  position: relative ;
+  left: -95px ;
+}
+
+.valoration-second{
+  position: relative;
+  left: -47px;
+}
+.stars{
+  margin-bottom: 0;
+}
+}
+
+
+
+
+.text-valoration{
+  font-weight: 700;
+  font-size: 1.0625rem;
+  margin: 0;
+  color: #512051;
+}
+
+.card-opinions{
+  width: 327px;
+  background-color: #512051;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 2rem;
+  margin-bottom: 1rem;
+
+}
+
+.opinions-top{
+  display: flex;
+  gap: 1.4375rem ;
+}
+
+.image{
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.0625rem;
+  margin-bottom: 0.25rem;
+
+}
+
+.verified{
+  color:#EE69A4 ;
+}
+
+.text-opinions{
+  font-size: 1.0625rem;
 }

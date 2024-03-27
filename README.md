@@ -1,4 +1,4 @@
-# Título del proyecto
+# social proof section
 
 ![Imagen del proyecto](https://raw.githubusercontent.com/Lesricol/social-proof-section/main/design/desktop-preview.jpg)
 

@@ -48,7 +48,7 @@ body {
     width: 1110px;
     display: flex;
     justify-content: space-between;
-
+    margin-bottom: 4.4375rem;
 
   }
   .main-top{
@@ -112,6 +112,7 @@ body {
 
 .card-opinions{
   width: 327px;
+  height: 234px;
   background-color: #512051;
   border-radius: 0.5rem;
   color: #fff;
@@ -124,6 +125,37 @@ body {
   display: flex;
   gap: 1.4375rem ;
 }
+
+@media screen and (width>=445px) {
+  .opinions{
+    width: 1110px;
+    height: 266px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (width>=445px) {
+  .card-opinions{ position: relative;
+    margin-left: auto;
+    margin-bottom: 0;
+  }
+  .card-first{
+    position: relative;
+    margin-left: 0;
+    top: 0;
+  }
+
+  .card-second{
+    position: relative;
+    top: 19px;
+  }
+  .card-tercero{
+    position: relative;
+    top: 35px;
+  }
+}
+
 
 .image{
   width: 2.5rem;
